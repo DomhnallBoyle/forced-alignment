@@ -12,6 +12,7 @@ Using Prosody Lab Phonetic Aligner:
 ```
 docker run -v /shared:/shared -it --entrypoint bash forced_alignment
 git clone http://github.com/prosodylab/Prosodylab-Aligner
+cd Prosodylab-Aligner
 pip3 install -r requirements.txt
 python3 -m aligner --help
 ```
