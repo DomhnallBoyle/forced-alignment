@@ -10,7 +10,7 @@ docker run -p 5000:5000 forced_alignment
 
 Using Prosody Lab Phonetic Aligner:
 ```
-docker run -it --entrypoint bash forced_alignment
+docker run -v /shared:/shared -it --entrypoint bash forced_alignment
 git clone http://github.com/prosodylab/Prosodylab-Aligner
 pip3 install -r requirements.txt
 python3 -m aligner --help
