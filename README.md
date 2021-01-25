@@ -14,5 +14,5 @@ docker run -v /shared:/shared -it --entrypoint bash forced_alignment
 git clone http://github.com/prosodylab/Prosodylab-Aligner
 cd Prosodylab-Aligner
 pip3 install -r requirements.txt
-python3 -m aligner --help
+python3 -m aligner -r eng.zip -d eng.dict -a data_directory
 ```
