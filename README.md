@@ -1,4 +1,6 @@
-# Forced Alignment
+# Forced Alignment Wrapper
+
+HTTP Server wrapped around a forced-alignment toolkit
 
 ```
 docker build -t forced_alignment --build-arg IP=0.0.0.0 --build-arg PORT=5000 .
